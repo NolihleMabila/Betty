@@ -17,6 +17,6 @@ int main(void)
 	{
 		putchar(l);
 	}
-
+	putchar('\n');
 	return (0);
 }

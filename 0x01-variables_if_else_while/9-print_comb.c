@@ -7,18 +7,17 @@
 int main(void)
 {
 	int ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
+	
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		if (ch == 'q' || ch == 'e')
+		putchar(ch);
+		if (ch != '9')
 		{
-			;
-		}
-		else
-		{
-			putchar(ch);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
