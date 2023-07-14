@@ -9,11 +9,11 @@ int main(void)
 	int ch;
 	int ch2;
 
-	for (ch = '0'; ch <= '9'; ch++)
+	for (ch = '0'; ch <= '8'; ch++)
 	{
 		for (ch2 = ch + 1; ch2 <= '9'; ch2++)
 		{
-			if (ch == '9' && ch2 == '8')
+			if (ch == '8' && ch2 == '9')
 			{
 				;
 			}
