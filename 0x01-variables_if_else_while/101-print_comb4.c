@@ -16,23 +16,20 @@ int main(void)
 		{
 			for (ch3 = ch2 + 1; ch3 <= '9'; ch3++)
 			{
-				if (ch == '8' && ch2 == '9')
+				if (ch != ch2)
+				{
+					putchar(ch);
+					putchar(ch2);
+					putchar(ch3);
+				}
+				if (ch == '1' && ch2 == '8' && ch3 == '9')
 				{
 					;
 				}
-				else
-				{
-					if (ch != ch2)
-				{
-						putchar(ch);
-						putchar(ch2);
-						putchar(ch3);
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
-	}
+	}	
 	return (0);
 }
