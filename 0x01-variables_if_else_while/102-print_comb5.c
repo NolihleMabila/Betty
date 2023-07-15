@@ -19,12 +19,11 @@ int main(void)
 			putchar(' ');
 			putchar((ch2 / 10) + '0');
 			putchar((ch2 % 10) + '0');
-			if (ch == 98 && ch2 == 99)
+			if (ch != 98 && ch2 != 99)
 			{
-				;
+				putchar(',');
+				putchar(' ');
 			}
-			putchar(',');
-			putchar(' ');
 		}
 	}
 	return (0);

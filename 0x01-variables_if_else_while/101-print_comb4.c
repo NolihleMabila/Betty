@@ -16,15 +16,11 @@ int main(void)
 		{
 			for (ch3 = ch2 + 1; ch3 <= '9'; ch3++)
 			{
-				if (ch != ch2)
+				putchar(ch);
+				putchar(ch2);
+				putchar(ch3);
+				if (ch != '7' && ch2 != '8' && ch3 != '9')
 				{
-					putchar(ch);
-					putchar(ch2);
-					putchar(ch3);
-					if (ch == '7' && ch2 == '8' && ch3 == '9')
-					{
-						;
-					}
 					putchar(',');
 					putchar(' ');
 				}
