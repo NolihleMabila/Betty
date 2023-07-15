@@ -20,7 +20,7 @@ int main(void)
 			}
 			if (ch == 8 && ch2 == 9)
 			{
-				;
+				break;
 			}
 			putchar(',');
 			putchar(' ');
