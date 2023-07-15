@@ -21,15 +21,15 @@ int main(void)
 					putchar(ch);
 					putchar(ch2);
 					putchar(ch3);
+					if (ch == '7' && ch2 == '8' && ch3 == '9')
+					{
+						;
+					}
+					putchar(',');
+					putchar(' ');
 				}
-				if (ch == '1' && ch2 == '8' && ch3 == '9')
-				{
-					;
-				}
-				putchar(',');
-				putchar(' ');
 			}
 		}
-	}	
+	}
 	return (0);
 }

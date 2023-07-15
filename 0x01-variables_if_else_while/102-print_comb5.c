@@ -15,10 +15,10 @@ int main(void)
 		for (ch2 = ch + 1; ch2 <= 99; ch2++)
 		{
 			putchar((ch / 10) + '0');
-			putchar((ch / 10) + '0');
+			putchar((ch % 10) + '0');
 			putchar(' ');
 			putchar((ch2 / 10) + '0');
-			putchar((ch2 / 10) + '0');
+			putchar((ch2 % 10) + '0');
 			if (ch == 98 && ch2 == 99)
 			{
 				;
