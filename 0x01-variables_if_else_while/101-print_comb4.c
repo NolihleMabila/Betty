@@ -19,7 +19,11 @@ int main(void)
 				putchar(ch);
 				putchar(ch2);
 				putchar(ch3);
-				if (ch != '7' && ch2 != '8' && ch3 != '9')
+				if (ch == '7' && ch2 == '8' && ch3 == '9')
+				{
+					break;
+				}
+				else
 				{
 					putchar(',');
 					putchar(' ');
@@ -27,5 +31,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
