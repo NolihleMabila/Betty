@@ -32,12 +32,11 @@ void times_table(void)
 			{
 				_putchar((k / 10) + '0');
 				_putchar((k % 10) + '0');
-				if (k == 9)
+				if (k != 81)
 				{
-					;
+					_putchar(',');
+					_putchar(' ');
 				}
-				_putchar(',');
-				_putchar(' ');
 			}
 		}
 		_putchar('\n');
