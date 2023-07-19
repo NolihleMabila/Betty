@@ -24,11 +24,11 @@ int main(void)
 
 		if (i < 97)
 		{
-			printf9(". ");
+			printf(". ");
 		}
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
 
