@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10- print alphabet ten times
  *
- */i
+ */
 void print_alphabet_x10(void)
 {
 	char ch;
