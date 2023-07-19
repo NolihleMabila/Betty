@@ -10,7 +10,7 @@
 
 int _islower(int ch)
 {
-	if (ch >= 91 && ch <= 122)
+	if (ch >= 'a' && ch <= 'z')
 	{
 		return (1);
 	}
@@ -18,5 +18,5 @@ int _islower(int ch)
 	{
 		return (0);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
