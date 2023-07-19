@@ -1,5 +1,4 @@
-#include main.h
-
+#include"main.h"
 /**
  *_islower - test for lowercase and returns values if a condiion is met
  *
@@ -19,16 +18,5 @@ int _islower(int ch)
 	{
 		return (0);
 	}
-	putchar('\n')
+	_putchar('\n')
 }
-/**
- * main - Entry point
- *
- * Return: Always 0 (success)
- */
-int main(void)
-{
-	_islower();
-	return (0);
-}
-

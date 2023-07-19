@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * _isalpha - check wether a character is an alphabet or nor
@@ -17,5 +17,5 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	putchar('\n')
+	_putchar('\n')
 }
