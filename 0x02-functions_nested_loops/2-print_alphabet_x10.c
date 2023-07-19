@@ -4,7 +4,7 @@
  * print_alphabetx10- print alphabet ten times
  *
  */
-void print_alphabetx10(void)
+void print_alphabet_x10(void)
 {
 	char ch;
 	char i;

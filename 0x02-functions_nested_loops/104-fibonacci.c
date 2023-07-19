@@ -9,25 +9,50 @@
 int main(void)
 {
 	int i;
-	unsigned long int a, b, next;
+	unsigned long int a, b, sum;
+	unsigned long int c, d, e, f;
+	unsigned long int g, h;
 
-	i = 0;
 	a = 0;
 	b = 1;
-	next = 0;
-	while (i < 98)
-	{
-		next = a + b;
-		a = b;
-		b = next;
-		printf("%lu", next);
 
-		if (i < 97)
-		{
-			printf(",");
-		}
-		i++;
+	for (i =0; i < 92; i++)
+	{
+		sum = a + b;
+		printf("%lu, ", sum);
+
+		a = b;
+		b = sum;
 	}
+
+	c = a / 10000000000;
+	e = b / 10000000000;
+	d = a % 10000000000;
+	f = b % 10000000000;
+
+	for (i = 93; i < 99; i++)
+	{
+
+		g = c + e;
+		h = d + f;
+		if (d + f > 9999999999)
+		{
+			g += 1;
+			h %= 10000000000;
+		}
+
+
+		printf("%lu%lu", g, h);
+		if (i != 98)
+		{
+			printf(", ");
+			c = e;
+			d = f;
+			e = g;
+			f = h;
+		}
+	}
+
 	putchar('\n');
 	return (0);
 }
