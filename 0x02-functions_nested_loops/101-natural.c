@@ -12,7 +12,7 @@ int main(void)
 
 	sum = 0;
 	sum_3 = 0;
-	sun_5 = 0;
+	sum_5 = 0;
 	for (i = 0; i < 1024; i++)
 	{
 		if ((i % 3) == 0)
@@ -29,6 +29,6 @@ int main(void)
 		}
 	}
 	sum = sum_3 + sum_5;
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }

@@ -24,7 +24,7 @@ int main(void)
 
 		if (i < 97)
 		{
-			printf(". ");
+			printf(", ");
 		}
 		i++;
 	}
