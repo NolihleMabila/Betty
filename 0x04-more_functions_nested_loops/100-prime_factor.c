@@ -25,4 +25,4 @@ int main(void)
 	}
 	printf("%lu\n", maxf);
 	return (0);
-}		
+}
