@@ -12,7 +12,6 @@ int main(void)
 	long maxf;
 	long number;
 	double square;
-	long number;
 
 	number = 612852475143;
 	square = sqrt(number);
@@ -26,6 +25,4 @@ int main(void)
 	}
 	printf("%ld\n", maxf);
 	return (0);
-}
-
-		
+}		
