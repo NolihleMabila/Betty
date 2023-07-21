@@ -12,9 +12,10 @@ int main(void)
 	long maxf;
 	long number;
 	double square;
+	long number;
 
-	long number = 612852475143;
-	double square = sqrt(number);
+	number = 612852475143;
+	square = sqrt(number);
 
 	for (i = 1; i <= square; i++)
 	{

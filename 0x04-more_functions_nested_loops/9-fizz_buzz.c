@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (i % 15 == 0)
 		{
-			prinft("%s ", FizzBuzz);
+			printf("%s ", FizzBuzz);
 		}
 		else if (i % 3 == 0)
 		{
