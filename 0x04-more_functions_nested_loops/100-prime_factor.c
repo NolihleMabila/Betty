@@ -23,6 +23,6 @@ int main(void)
 			maxf = number / i;
 		}
 	}
-	printf("%ld\n", maxf);
+	printf("%lu\n", maxf);
 	return (0);
 }		
