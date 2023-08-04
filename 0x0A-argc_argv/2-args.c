@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - prints all argument it receives
  * @argc: input
