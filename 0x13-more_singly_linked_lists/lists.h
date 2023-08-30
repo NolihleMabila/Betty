@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**
- * struct listint_t- singly linked list
+ * struct listint_s - singly linked list
  * @n: int
  * @next: takes you to the next next node
  *
@@ -19,7 +19,7 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * struct listp_t - singly linked list
+ * struct listp_s - singly linked list
  * @p: pointersof the nodes
  * @next: takes you the next nodes
  *
