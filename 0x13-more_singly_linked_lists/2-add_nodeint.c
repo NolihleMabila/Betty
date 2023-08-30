@@ -9,7 +9,7 @@
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *i ;
+	listint_t *i;
 
 	i = malloc(sizeof(listint_t));
 

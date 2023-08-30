@@ -5,26 +5,26 @@
  * @head: head of a linked list.
  *
  */
-void free_listp(listp_t **head)
+void free_listp2(listp_t **head)
 {
-        listp_t *i;
-        listp_t *k;
+	listp_t *i;
+	listp_t *k;
 
-        if (head != NULL)
-        {
-                k = *head;
-                while ((i = k) != NULL)
-                {
-                        k = k->next;
-                        free(i);
-                }
-                *head = NULL;
-        }
+	if (head != NULL)
+	{
+		k = *head;
+		while ((i = k) != NULL)
+		{
+			k = k->next;
+			free(i);
+		}
+		*head = NULL;
+	}
 }
 
 /**
- * print_listint_safe - frees a linked listint_t list
- * @head: head of a listint_t linked list.
+ * free_listint_safe - frees a linked listint_t list
+ * @h: head of a listint_t linked list.
  *
  * Return: the size of the list that was free’d --
  */
@@ -54,7 +54,7 @@ size_t free_listint_safe(listint_t **h)
 			if (*h == add->p)
 			{
 				*h = NULL;
-				free_listp(&hp);
+				free_listp2(&hp);
 				return (n);
 			}
 		}
@@ -66,6 +66,6 @@ size_t free_listint_safe(listint_t **h)
 	}
 
 	*h = NULL;
-	free_listp(&hp);
+	free_listp2(&hp);
 	return (n);
 }

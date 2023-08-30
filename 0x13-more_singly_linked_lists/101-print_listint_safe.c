@@ -53,17 +53,17 @@ size_t print_listint_safe(const listint_t *head)
  */
 void free_listp(listp_t **head)
 {
-        listp_t *i;
-        listp_t *k;
+	listp_t *i;
+	listp_t *k;
 
-        if (head != NULL)
-        {
-                k = *head;
-                while ((i = k) != NULL)
-                {
-                        k = k->next;
-                        free(i);
-                }
-                *head = NULL;
-        }
+	if (head != NULL)
+	{
+		k = *head;
+		while ((i = k) != NULL)
+		{
+			k = k->next;
+			free(i);
+		}
+		*head = NULL;
+	}
 }

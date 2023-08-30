@@ -5,7 +5,8 @@
  * @head: head of a list
  * @index: index of the node --
  *
- * Return: the nth node and if node does not exist the functio will returns NULL.
+ * Return: the nth node and if node does not exist the functio will
+ * returns NULL.
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {

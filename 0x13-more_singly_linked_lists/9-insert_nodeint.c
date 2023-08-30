@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - responsible for inserting a new node at a given position
+ * insert_nodeint_at_index - responsible for inserting a new node
+ * at a given position
  * @head: head of a list
  * @idx: index num where the new node will be inserted on a list.
  * @n: int agurment
